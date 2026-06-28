@@ -1,0 +1,6 @@
+---
+connection_options:
+  netmiko:
+    extras:
+      global_delay_factor: 1
+      fast_cli: false

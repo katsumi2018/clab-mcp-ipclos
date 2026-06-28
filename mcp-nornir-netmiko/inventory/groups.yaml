@@ -1,0 +1,12 @@
+---
+arista:
+  platform: arista_eos
+
+junos:
+  platform: juniper_junos
+
+vyos:
+  platform: vyos
+
+sonic:
+  platform: edgecore_sonic

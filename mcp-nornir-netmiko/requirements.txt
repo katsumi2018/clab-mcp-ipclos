@@ -1,0 +1,6 @@
+mcp>=1.9.0
+nornir>=3.5.0
+nornir-netmiko>=1.0.1
+nornir-utils>=0.2.0
+netmiko>=4.4.0
+PyYAML>=6.0.2

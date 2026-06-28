@@ -1,0 +1,42 @@
+---
+spine1:
+  hostname: 172.20.20.11
+  username: admin
+  password: admin
+  groups:
+    - arista
+
+spine2:
+  hostname: 172.20.20.12
+  username: admin
+  password: admin
+  groups:
+    - arista
+
+leaf1:
+  hostname: 172.20.20.101
+  username: admin
+  password: admin
+  groups:
+    - vyos
+
+leaf2:
+  hostname: 172.20.20.102
+  username: admin
+  password: admin
+  groups:
+    - arista
+
+leaf3:
+  hostname: 172.20.20.103
+  username: admin
+  password: admin
+  groups:
+    - sonic
+
+leaf4:
+  hostname: 172.20.20.104
+  username: admin
+  password: admin@123
+  groups:
+    - junos
