@@ -84,7 +84,7 @@ topology:
         - 8000:8000
       env:
         NORNIR_CONFIG: "/app/inventory/config.yaml"
-        ALLOW_CONFIG: "true"  # 設計変更を許可する場合はtrueに変更する
+        ALLOW_CONFIG: "false"  # 設計変更を許可する場合はtrueに変更する
 
   links:
     - endpoints: ["leaf1:eth1", "spine1:eth1"]
